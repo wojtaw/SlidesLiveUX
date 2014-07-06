@@ -41,7 +41,7 @@ function initDownload(){
 
 function animateDownload(e){
     $("#ux-finalDownload").fadeOut();
-    $("#ux-finalDownload").append('<iframe width="1" height="1" frameborder="0" src="SlidesLive-Windows.zip"></iframe>');
+    $("#ux-finalDownload").append('<iframe width="1" height="1" frameborder="0" src="SlidesLive-Windows.exe"></iframe>');
     $(".ux-downloadArrow").animate({
         opacity: 1,
         bottom: 0
